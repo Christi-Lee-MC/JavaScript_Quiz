@@ -1,34 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Office Quiz Challenge</title>
-    <link rel="stylesheet" href="./assets/css/style.css">
-</head>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
 
-<body>
-<header>Office Quiz Challenge</header>
+  <body>
+    <header>Office Quiz Challenge</header>
+    <div id="timer">
+      <span id="time">60</span>
+    </div>
+    <div id="instructions">
+      <p>
+        Try to answer the following questions within the time limit. Keep in mind
+        that incorrect answers will penalize your score/time by ten seconds!
+      </p>
+      <button id="start">Start Quiz</button>
+    </div>
+    <div id="quiz-container">
+      <h2 id="question"></h2>
+      <div id="choices"></div>
+    </div>
 
-<p>Try to answer the following quetions within the time limit. 
-    Keep in mindthat incorrect answers will penalize your score/time by ten seconds!</p>
+    <div id="score" class="hide"></div>
+    <div id="highScore" class="hide">
+      <!-- <input class="highScore" type="button" value="highScore" /> -->
+    </div>
 
-    <!-- timer for whole thing counts down and stops at click of last submitted answer
-    button = start quiz & timer
-    questions - array
-    answers - array with button to submit and move forward 
-        incorrect answer penalizes time with subtraction 
-    capture score - store in local storage until high score compare with all in ls
-    game end when all questions answered or timer hits zero
-    on game over input initials and save with score (together) in local storage
-    pull out reordered high score list and display with new data -->
-
-
-
-
-
-    
-</body>
+    <script src="./assets/js/index.js"></script>
+  </body>
 </html>
