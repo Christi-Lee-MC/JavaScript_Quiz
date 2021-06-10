@@ -111,18 +111,18 @@ endQuiz();
 
 
 // display the users end score
-function saveScore () {
-  var highScore = document.getElementById('highScore');
-  var highScore= document.createElement("highScore");
-  highScore.appendChild(highScore);
-  div.className = "highScore"
-  div.innerHTML = <input type='text' name='highScore []' value='highScore' />;
+// function saveScore () {
+//   var highScore = document.getElementById('highScore');
+//   var saveScoreEl= document.createElement("highScore");
+//   saveScore.appendChild(highScore);
+//   div.className = "highScore"
+//   div.innerHTML = <input type='text' name='saveScoreEl []' value='highScore' />;
 
-
+function saveHighScore =
 
   // var gameOverHTML = "<h2>Quiz Over!  Thank you for playing!</h2>";
   // gameOverHTML += "<h2> Your score is: " + quiz.score + "</h2>";
-}
+// }
 // // end the quiz when either timer ends or
 // // all questions are answered
 
